@@ -68,10 +68,10 @@ module.exports = (robot) ->
     "what if I told you":
       generatorID: 1118843,
       imageID: 4796874
-    "all the things",
+    "all the things":
       generatorID: 318065,
       imageID: 1985197
-    "disaster girl",
+    "disaster girl":
       generatorID: 36240,
       imageID: 1232401
 
