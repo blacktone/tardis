@@ -67,7 +67,13 @@ module.exports = (robot) ->
       imageID: 10885558,
     "what if I told you":
       generatorID: 1118843,
-      imageID: 4796874
+      imageID: 4796874,
+    "all the things",
+      generatorID: 318065,
+      imageID: 1985197,
+    "disaster girl",
+      generatorID: 36240,
+      imageID: 1232401
 
   robot.respond /meme( help)?$/i, (msg) ->
     msg.send "Commands:\n meme list\n meme create \"generator\" \"text0\" \"text1\""
