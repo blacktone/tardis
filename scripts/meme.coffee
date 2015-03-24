@@ -55,7 +55,7 @@ module.exports = (robot) ->
       imageID: 2485
     "trollface":
       generatorID: 68,
-      imageID: 84688
+      imageID: 269
     "onedoesnot":
       generatorID: 689854,
       imageID: 3291562,
