@@ -36,8 +36,8 @@ module.exports = (robot) ->
       generatorID:3,
       imageID: 203
     "insanity wolf":
-      generatorID: 45,
-      imageID: 984,
+      generatorID: 3426035,
+      imageID: 11540231,
     "y u no":
       generatorID: 2,
       imageID: 166088
@@ -58,7 +58,10 @@ module.exports = (robot) ->
       imageID: 84688
     "onedoesnot":
       generatorID: 689854,
-      imageID: 3291562
+      imageID: 3291562,
+    "kermit":
+      generatorID: 3466964,
+      imageID: 11590722
 
   robot.respond /meme( help)?$/i, (msg) ->
     msg.send "Commands:\n meme list\n meme create \"generator\" \"text0\" \"text1\""
