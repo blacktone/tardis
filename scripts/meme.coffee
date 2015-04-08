@@ -77,6 +77,9 @@ module.exports = (robot) ->
     "fry":
       generatorID: 305,
       imageID: 84688
+    "morpheus":
+      generatorID: 1118843,
+      imageID: 4796874
 
   robot.respond /meme( help)?$/i, (msg) ->
     msg.send "Commands:\n meme list\n meme create \"generator\" \"text0\" \"text1\""
